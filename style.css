@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.esquerda {
+    margin: 10px 0px 10px 0px;
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    border-right: 1px dashed black;
+
+}
+
+.direita {
+    margin: 10px 0px 10px 0px;
+    width: 850px;
+    height: 200px;
+    padding: 10px;
+
+    border-bottom: 1px solid black;
+
+}
+#titulo{
+    margin-left: 60px;
+}
